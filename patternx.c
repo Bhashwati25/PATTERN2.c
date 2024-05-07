@@ -1,8 +1,11 @@
 #include<stdio.h>
 int main(){
-    int i,count=0,c=1;
-    for(i=1;i<=7;i++){
-        for(int j=7-i;j>=1;j--){
+    int i,count=0,c=1,rows;
+    printf("Enter the number of rows you want to print : \n " );
+    scanf("%d",&rows);
+        
+    for(i=1;i<=rows;i++){
+        for(int j=rows-i;j>=1;j--){
             
                 printf(" ");
             }
